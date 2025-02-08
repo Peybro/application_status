@@ -3,7 +3,7 @@ import { ApplicationsList } from "./components/Applications-List.component";
 import "@picocss/pico/css/pico.min.css";
 import "./App.css";
 import { useState } from "react";
-import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { app } from "./firebase";
 

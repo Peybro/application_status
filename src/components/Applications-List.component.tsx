@@ -19,14 +19,14 @@ export function ApplicationsList() {
     collection(getFirestore(app), "applications"),
     {
       snapshotListenOptions: { includeMetadataChanges: true },
-    }
+    },
   );
   const [search, setSearch] = useState<string>("");
   const [sort, setSort] = useState<keyof ApplicationProps>("Name");
 
   const sortApplications = (
     a: QueryDocumentSnapshot<DocumentData, DocumentData>,
-    b: QueryDocumentSnapshot<DocumentData, DocumentData>
+    b: QueryDocumentSnapshot<DocumentData, DocumentData>,
   ) => {
     const aData = a.data() as ApplicationProps;
     const bData = b.data() as ApplicationProps;

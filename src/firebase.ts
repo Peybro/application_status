@@ -10,7 +10,7 @@ const firebaseConfig = {
   projectId: "application-tool-f5715",
   storageBucket: "application-tool-f5715.firebasestorage.app",
   messagingSenderId: "316908780683",
-  appId: "1:316908780683:web:99db81ccbbf7476a70688e"
+  appId: "1:316908780683:web:99db81ccbbf7476a70688e",
 };
 
 // Initialize Firebase

@@ -72,7 +72,7 @@ export function ApplicationsListItem({
     await deleteDoc(doc(getFirestore(app), "applications", data.id)).then(
       () => {
         toast("Eintrag gelöscht");
-      }
+      },
     );
   }
 

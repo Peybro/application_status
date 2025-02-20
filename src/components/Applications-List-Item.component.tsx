@@ -6,6 +6,8 @@ import { toast } from "react-toastify";
 export const statusLabels = {
   noch_nicht_versendet: "Noch nicht versendet",
   offen: "Offen",
+  invite_1: "Einladung zum Kennenlernen",
+  invite_2: "2. Einladung",
   abgelehnt_1: "Abgelehnt vor 1",
   abgelehnt_2: "Abgelehnt nach 1",
   abgelehnt_3: "Abgelehnt nach 2",
